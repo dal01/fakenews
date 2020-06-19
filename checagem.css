@@ -1,0 +1,36 @@
+//CHECAGENS
+
+// !! nao funciona
+.card-img-checagem{
+    height:10px
+}
+.imgChecagens{
+    border-radius: 0;
+}
+.cardChecagens{
+    border-radius: 0
+    background-color: #ffffff;
+
+}
+.shareIcon{
+    height: 30px;
+    background-color: #00305c;
+}
+.border-fakenews{
+    border: 3px solid;
+    border-radius: 0;
+}
+.border-fakeNews-fake{
+    border-color: #9b0000;
+}
+.border-fakenews-fato{
+    border-color: #1c8407;
+}
+.border-fakenews-impreciso{
+    border-color: #d88500;;
+}
+
+.diaDaPostagem{
+    text-align: right;
+    color: #c6c6c6;
+}

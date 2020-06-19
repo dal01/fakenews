@@ -1,0 +1,35 @@
+.cardMaisPopulares{
+    border: none;
+    background-color: #ebebeb;
+}
+.card-maispopulares-todos{
+    border: none;
+}
+.faixaCardFake{
+    background-color: #9b0000;
+    max-height: 120px;
+}
+.faixaCardFato{
+    background-color: #1c8407;
+}
+.faixaCardImpreciso{
+    background-color: #d88500;
+}
+.card-text-fakenews-maispopulares{
+    line-height: 1.2em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /** número de linhas que você quer exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.faixaCardFake,.faixaCardFato,.faixaCardImpreciso{
+    height: 3px;
+}
+
+.card-title-maispopulares-fake,.card-title-maispopulares-fato,.card-title-maispopulares-impreciso{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+    font-weight: bold;
+}

@@ -19,10 +19,7 @@ header,checagens,maispopulares{
     background-color: #00305c;
 }
 
-.shareIcon{
-    height: 30px;
-    background-color: #00305c;
-}
+
 .corFato{
     color: #1c8407;
 }
@@ -32,52 +29,25 @@ header,checagens,maispopulares{
 .corImpreciso{
     color: #d88500;
 }
-//CHECAGENS
-.checagem.bgcolor{
-    background-color: blueviolet;
-}
 
-.cardChecagens{border-radius: 0}
+
 
 //CARDS MAIS POPULARES
 card{
-    background-color: #ebebeb;
+    background-color: #ffffff;
 }
 
-.faixaCardFake,.faixaCardFato,.faixaCardImpreciso{
-    height: 3px;
-}
 
-.faixaCardFake{
-    background-color: #9b0000;
-    max-height: 120px;
-}
-
-.border-fakeNews--fato{
-    border: 5px solid;
-    border-color: #9b0000;
-}
-
-.faixaCardFato{
-    background-color: #1c8407;
-}
-.faixaCardImpreciso{
-    background-color: #d88500;
+.container-size{
+    width: 1028px;
 }
 
 .card-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19;
 }
-.card-body{
-    background-color: #ebebeb;
-}
-.cardMaisPopulares{border-radius: 0;border: none;}
-.card-title-fake,.card-title-fato,.card-title-impreciso{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18;
-    font-weight: bold;
-}
+
+
 .card-title-fake{
     color: #9b0000;
 }
