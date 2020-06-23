@@ -70,4 +70,10 @@ card{
 }
 .pills-rounded .nav-item .nav-link {
     border-radius: 10em;
-    }
+}
+
+.btn-vermais{
+    outline-color: #00305c;
+    position: absolute;
+    left: 50%;
+}

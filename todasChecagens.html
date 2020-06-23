@@ -4,6 +4,7 @@
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="todasChecagens.css">
 <link rel="stylesheet" href="checagem.css">
 <link rel="stylesheet" href="maispopulares.css">
 <link rel="stylesheet" href="tags.css">
@@ -21,59 +22,39 @@
           <a href="#" class="nav-link">Mais recentes</a>
           <a href="#" class="nav-link">Todas</a>
         </nav>
-        <!-- CHECAGEM -->
-        <div class="card cardchecagens border-fakenews border-fakeNews-fato">
-          <img class="card-img-top imgChecagens" src="img/materiaFake.jpg" alt="Foto">
+        <!--ITENS DA PAGINA-->
+        <div class="card card-todas">
           <div class="card-body">
-            <div class="button">
-              <img src="img/seloFato.jpg" height="68" alt="compartilhar" class="float-left">
-              <img src="img/shareIcon.svg" height="30" alt="compartilhar" class="float-right">
-            </div>
-            <br>
+            <div class="faixaCardFake"></div>
+            <img class="card-img-top card-img-top-todas" src="D:\dalton\Dropbox\Senado\Coti\fake news\codigo\img\materiaFake.jpg" alt="Card image cap">
             <div class="diaDaPostagem">19/06/2020</div>
-            <br>
-            <!-- Title -->
-            <h4 class="card-title"><a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit.</a></h4>
+            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit.</h5>
           </div>
         </div>
         <br>
-        <div class="card cardchecagens border-fakenews border-fakeNews-fake">
-          <img class="card-img-top imgChecagens" src="img/materiaFake.jpg" alt="Foto">
-          <div class="card-body">
-            <div class="button">
-              <img src="img/seloFake.jpg" height="68" alt="compartilhar" class="float-left">
-              <img src="img/shareIcon.svg" height="30" alt="compartilhar" class="float-right">
-            </div>
-            <br>
-            <div class="diaDaPostagem">19/06/2020</div>
-            <br>
-            <!-- Title -->
-            <h4 class="card-title"><a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit.</a></h4>
-          </div>
-        </div>
-        <br>
-        <div class="card cardchecagens border-fakenews border-fakeNews-impreciso">
-          <img class="card-img-top imgChecagens" src="img/materiaFake.jpg" alt="Foto">
-          <div class="card-body">
-            <div class="button">
-              <img src="img/seloImpreciso.jpg" height="68" alt="compartilhar" class="float-left">
-              <img src="img/shareIcon.svg" height="30" alt="compartilhar" class="float-right">
-            </div>
-            <br>
-            <div class="diaDaPostagem">19/06/2020</div>
-            <br>
-            <!-- Title -->
-            <h4 class="card-title"><a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit.</a></h4>
-          </div>
-          
-        </div>
-        <br>
-        <!-- BOTAO VER MAIS-->
-        <button type="button" class="btn btn-outline-info btn-vermais">Ver mais</button>
-        <br>
+        <!--PAGINACAO-->
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <!-- COLUNA LATERAL - mais populares e tags-->
       <div class="col-4">

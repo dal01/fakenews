@@ -7,7 +7,6 @@
 }
 .faixaCardFake{
     background-color: #9b0000;
-    max-height: 120px;
 }
 .faixaCardFato{
     background-color: #1c8407;
@@ -32,4 +31,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18;
     font-weight: bold;
+}
+.card-title-maispopulares-fake{
+    color: #9b0000;
+}
+.card-title-maispopulares-fato{
+    color: #1c8407;
+}
+.card-title-maispopulares-impreciso{
+    color: #d88500;
 }

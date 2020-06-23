@@ -10,7 +10,7 @@
 .cardChecagens{
     border-radius: 0
     background-color: #ffffff;
-
+    box-shadow: 6px 6px #f0f0f0;
 }
 .shareIcon{
     height: 30px;
