@@ -11,6 +11,15 @@
     border-radius: 0
     background-color: #ffffff;
     box-shadow: 6px 6px #f0f0f0;
+    margin: 0px 0px 27px;
+}
+.card-title-checagens{
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /** número de linhas que você quer exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
 }
 .shareIcon{
     height: 30px;
@@ -31,6 +40,13 @@
 }
 
 .diaDaPostagem{
-    text-align: right;
+    text-align: end;
     color: #c6c6c6;
+}
+.btn-vermais{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }

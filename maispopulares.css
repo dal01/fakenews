@@ -1,6 +1,10 @@
 .cardMaisPopulares{
     border: none;
     background-color: #ebebeb;
+    padding: 17px;
+    padding-top: 10px;
+    padding-bottom: 33px;
+    margin-bottom: 20px;
 }
 .card-maispopulares-todos{
     border: none;
@@ -31,6 +35,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18;
     font-weight: bold;
+}
+.card-title-maispopulares-fake, .card-title-maispopulares-fato, .card-title-maispopulares-impreciso{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
 }
 .card-title-maispopulares-fake{
     color: #9b0000;

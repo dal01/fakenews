@@ -13,12 +13,20 @@ header,checagens,maispopulares{
    
 }
 
-
+.nav-senadoverifica{
+    padding: none;
+    color: chartreuse;
+}
 .faixaAzul{
     height: 3px;
     background-color: #00305c;
 }
-
+.faixaAzulMaisPopulares{
+    margin-bottom: 20px;
+}
+.faixaAzulTags{
+    margin-bottom: 12px;
+}
 
 .corFato{
     color: #1c8407;
@@ -30,7 +38,12 @@ header,checagens,maispopulares{
     color: #d88500;
 }
 
-
+.col-8{
+    padding-left: 10px;
+}
+.col-4{
+    padding: 6px;
+}
 
 //CARDS MAIS POPULARES
 card{
@@ -56,24 +69,4 @@ card{
 }
 .card-title-impreciso{
     color: #d88500;
-}
-
-//TAGS
-
-.pills-tag {
-    background-color: #00305c;
-    border-radius: 10em;
-    }
-}
-.nav-pills{
-    border-radius: 10em;
-}
-.pills-rounded .nav-item .nav-link {
-    border-radius: 10em;
-}
-
-.btn-vermais{
-    outline-color: #00305c;
-    position: absolute;
-    left: 50%;
 }
