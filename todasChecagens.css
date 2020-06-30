@@ -1,22 +1,25 @@
 .card-todas{
     border: none;
-    height: 100px;
     padding: 5px;
 }
 .card-body-todas{
     padding: 0px;
 }
 .card-img-top-todas{
-    max-width: 180px;
     border-radius: 0;
     float: left;
+    /** corta a imagem jpg**/
+    width: 177px;
+    height: 72px;
+    object-fit: cover;
+    object-position: center;
+}
 }
 
 .todas-diaDaPostagem{
     color: #747474;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-small;
-    margin: 5px;
 }
 
 .card-title-todas{
@@ -45,4 +48,12 @@
 }
 .todas-faixaCardImpreciso{
     background-color: #d88500;
+}
+
+
+.objectImage {
+    width: 600px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
 }

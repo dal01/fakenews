@@ -6,7 +6,7 @@ background-color: #FFF;
 header{
     margin: 2vh auto;
 }
-header,checagens,maispopulares{
+header, checagens, maispopulares{
     font-family: 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
     font-size: 15;
     min-height: 10vh;
@@ -43,6 +43,7 @@ header,checagens,maispopulares{
 }
 .col-4{
     padding: 6px;
+    padding-top: 0px;
 }
 
 //CARDS MAIS POPULARES
@@ -69,4 +70,23 @@ card{
 }
 .card-title-impreciso{
     color: #d88500;
+}
+
+.table-menu-naoselecionado{
+    font-weight: lighter;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+    font-size: 15;
+}
+.table-menu-selecionado{
+    font-weight: lighter;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+    font-size: 15;
+    border-bottom: 3px solid #00305c !important;
+    margin-right: 40px;
+}
+.th-menu{
+    padding: 0 0px 0 0;
+}
+.table-menu{
+    margin-bottom: 19px;
 }
